@@ -1,0 +1,13 @@
+[app]
+title = ITM Snake Game
+package.name = itm_snake_game
+package.domain = org.example
+source.dir = .
+source.include_exts = py,wav
+requirements = python3, pygame, sdl2, sdl2_image, sdl2_mixer, sdl2_ttf
+orientation = landscape
+fullscreen = 0
+
+[buildozer]
+log_level = 2
+warn_on_root = 0
